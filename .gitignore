@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Data (raw CSVs — regenerate locally)
+data/raw/*.csv
+data/raw/*.parquet
+
+# Models (large binaries)
+models/saved/*.pkl
+models/saved/*.joblib
+models/plots/*.png
+
+# RAG index
+rag/faiss_index/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+*.env
+.envrc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+postgres_data/
+mlflow_artifacts/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
