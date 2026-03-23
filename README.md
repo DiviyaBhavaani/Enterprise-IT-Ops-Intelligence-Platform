@@ -2,10 +2,6 @@
 
 > **End-to-end AI platform** that predicts incident severity, detects cloud cost anomalies, forecasts SLA breaches, and enables natural language Q&A over operational data — built with Python, scikit-learn, PyTorch, LangChain, and Streamlit.
 
-[![CI](https://github.com/YOUR_USERNAME/it-ops-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/it-ops-intelligence/actions)
-[![Python 3.11](https://img.shields.io/badge/Python-3.11-blue)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
 ---
 
 ## 📌 Project Overview
