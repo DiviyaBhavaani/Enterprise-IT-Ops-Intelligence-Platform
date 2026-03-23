@@ -10,7 +10,7 @@
 
 ## 📌 Project Overview
 
-This platform simulates the kind of AI-powered operational intelligence system that enterprises like Kyndryl use to manage mission-critical infrastructure. It ingests data from 8 synthetic services (billing, auth, storage, ML inference, etc.) and applies a full ML + LLM pipeline to turn raw logs into actionable insights.
+This platform simulates the kind of AI powered operational intelligence system that IT enterprises use to manage mission critical infrastructure. It ingests data from 8 synthetic services (billing, auth, storage, ML inference, etc.) and applies a full ML + LLM pipeline to turn raw logs into actionable insights.
 
 **Key capabilities:**
 
@@ -145,7 +145,7 @@ The RAG chatbot answers questions like:
 > *"Which services have the highest SLA breach risk this week?"*  
 > *"What was the average P1 resolution time for billing-api in Q3?"*  
 > *"Are there any cost anomalies I should be aware of?"*  
-> *"Predict severity for an after-hours security incident in auth-service affecting 10,000 users"*
+> *"Predict severity for an after hours security incident in auth service affecting 10,000 users"*
 
 **To enable:** Enter your OpenAI or Anthropic API key in the dashboard's AI Chat tab.
 
@@ -190,7 +190,7 @@ Test coverage: data generation, feature engineering, anomaly detection, end-to-e
 | Experiment tracking | MLflow |
 | LLM / RAG | LangChain, FAISS, OpenAI API, Anthropic API |
 | Dashboard | Streamlit, Plotly |
-| Deployment | Docker, docker-compose, GitHub Actions |
+| Deployment | Docker, docker compose, GitHub Actions |
 | Cloud-ready | AWS EC2 / GCP Cloud Run compatible |
 
 ---
@@ -200,7 +200,7 @@ Test coverage: data generation, feature engineering, anomaly detection, end-to-e
 Three tracked experiments:
 - `severity_classification` — RF vs XGBoost comparison
 - `cloud_cost_anomaly_detection` — IF vs Z-score vs IQR
-- `sla_breach_forecasting` — per-service breach probability
+- `sla_breach_forecasting` — per service breach probability
 
 View at http://localhost:5000 when running with Docker.
 
@@ -208,23 +208,10 @@ View at http://localhost:5000 when running with Docker.
 
 ## 🗺️ Roadmap
 
-- [ ] Real-time Kafka ingestion pipeline
+- [ ] Real time Kafka ingestion pipeline
 - [ ] SHAP explainability for severity classifier
 - [ ] Power BI report template (`.pbix`)
 - [ ] AWS CDK deployment script
 - [ ] Slack alert integration via LangChain tool
 
 ---
-
-## 👤 Author
-
-**[Your Name]**  
-MS Computer Engineering, Texas A&M University  
-Specialization: AI & Data Science  
-[LinkedIn](https://linkedin.com/in/YOUR_PROFILE) · [GitHub](https://github.com/YOUR_USERNAME)
-
----
-
-## 📄 License
-
-MIT — see [LICENSE](LICENSE)
